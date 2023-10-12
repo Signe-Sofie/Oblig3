@@ -25,3 +25,12 @@ ul li{
     list-style: none;
 }
 
+footer{
+    background-color: black;
+    color: white;
+}
+
+section nav ul li{
+    color: white;
+}
+
