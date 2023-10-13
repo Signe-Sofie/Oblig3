@@ -21,16 +21,30 @@ a{
 img{
     width: 100%;
 }
+
+#medlemsknapp{
+    background-color: rgb(210, 186, 142);
+    list-style: none;
+    text-align: center;
+    padding: 5%;
+}
+
+main li a{
+    font-size: 40px;
+}
+
 ul li{
     list-style: none;
 }
 
 footer{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-section nav ul li{
-    color: white;
+footer section nav ul li a{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
