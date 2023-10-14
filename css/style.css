@@ -4,6 +4,8 @@
 
 header nav li{
     list-style: none;
+    float: left;
+
 }
 
 a{
@@ -30,6 +32,46 @@ img{
     padding: 20%;
 }
 
+.produktimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    
+}
+
+#produktimg{
+    width: 15%;
+    display: flex;
+}
+
+.knapp{
+    background-color: aqua;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: left;
+}
+
+a:hover{
+   
+}
+
+.knapp:hover{
+    background-color: blueviolet;
+}
+
+.størrelser{
+    background-color: blue;
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.størrelser:hover{
+    background-color: aquamarine;
+
+}
+
 #medlemsknapp{
     background-color: rgb(210, 186, 142);
     list-style: none;
@@ -50,10 +92,12 @@ footer{
     background-color: black;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
 footer section nav ul li a{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
 
