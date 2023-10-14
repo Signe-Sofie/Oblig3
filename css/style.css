@@ -2,6 +2,8 @@
     
 }
 
+/*forside*/
+
 header nav li{
     list-style: none;
     float: left;
@@ -69,7 +71,14 @@ a:hover{
 
 .størrelser:hover{
     background-color: aquamarine;
+}
 
+#kjøpeknapp{
+    background-color: brown;
+    display: inline;
+    padding: 1rem;
+    margin: 0.5rem;
+    
 }
 
 #medlemsknapp{
@@ -101,3 +110,5 @@ footer section nav ul li a{
     display: flex;
 }
 
+/*produktside*/
+/*kjøpsrett*/
