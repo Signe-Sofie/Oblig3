@@ -93,20 +93,31 @@ ul li{
 }
 
 footer{
+    grid-area: footer;
     background-color: black;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
 }
 
+#kundeservice{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
 footer section nav ul li a{
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
+   
 }
 
 footer section nav ul li{
     text-align: center;
+   
 }
 
 #sosialemedier{
@@ -206,6 +217,7 @@ h6{
 main section p{
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /*kjøpsrett*/
 
 h2{
