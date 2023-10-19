@@ -3,8 +3,7 @@
 }
 
 /*forside*/
-
-#grid-container-index{
+#grid-container-index, #grid-container-produkt, #grid-container-kjopsrett{
     display: grid;
     grid-template-areas: "header" "main" "footer";
 }
@@ -16,7 +15,7 @@ header, main, footer{
 header{
     font-size: 1.5rem;
     font-weight: 600;
-    grid-area: header;
+   
 }
 
 header nav div{
@@ -24,7 +23,6 @@ header nav div{
     flex-direction: row;
     margin: auto auto auto 2rem;
     padding: 1rem;
-
     justify-content: space-between;
     position: absolute;
     text-align: center;
@@ -43,7 +41,7 @@ header nav li{
 
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(86, 84, 84);
 }
 
 #LOGO{
@@ -51,6 +49,7 @@ a{
     text-decoration: none;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
 }
 
 .img{
@@ -66,16 +65,16 @@ img{
 }
 
 .knapp{
-    background-color: aqua;
+    background-color: rgb(68, 198, 198);
+    display: flex;
     display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 1rem;
     margin: 0.5rem;
-    text-align:;
 }
 
-a:hover{
-   
-}
 
 .knapp:hover{
     background-color: blueviolet;
@@ -86,10 +85,8 @@ a:hover{
     display: inline-block;
     padding: 1rem;
     margin: 0.5rem;
-    text-align:;
+    text-align:center;
 }
-
-
 
 .skotype:hover{
     background-color: blueviolet;
@@ -112,19 +109,16 @@ ul li{
 }
 
 footer{
-    grid-area: footer;
-    background-color: black;
     color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
-
-
 
 footer section nav ul li a{
     color: rgb(255, 255, 255);
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-   
+    display: flex;  
 }
 
 footer section nav ul li{
@@ -134,15 +128,14 @@ footer section nav ul li{
 #sosialemedier{
     background-color: rgb(84, 114, 114);
     text-align: center;
-    display: inline-block;
+    display: block;
     padding: 0.5rem;
-    margin: rem;
-    font-size: 1rem;
+    margin: 0.5rem;
 }
 
 .ikoner{
-    background-color: blueviolet;
-    font-size: 50%;
+    background-color: rgb(101, 44, 155);
+    font-size: 1.5rem;
     text-align: center;
     display: inline-block;
     padding: 0.5rem;
@@ -152,11 +145,16 @@ footer section nav ul li{
 
 /*produktside*/
 
-
 main nav ul li{
-    font-size: 5px;;
+    font-size: 5px;
     font-family: Arial, Helvetica, sans-serif;
     display: inline;
+}
+
+.brodsti{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1px;
+    display:;
 }
 
 
@@ -244,46 +242,53 @@ main section article p{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*responsivt*/
+
 @media only screen and (min-width:600px){
-    #grid-container{
+   
+    #grid-container-index, #grid-container-produkt, #grid-container-kjopsrett{
         grid-template-areas: "header header header" "main main main" "footer footer footer";
-        grid-template-columns: 1fr 1fr, 1fr;
+        grid-template-columns: 1fr 1fr 1r 1fr;
     }
-
-    header{
+     
+    #grid-container-index main{
         grid-column-start: 1;
-        grid-column-end: 4;
-        grid-row-start:1;
-        grid-row-end:2;
-    }
-
-    footer{
-        grid-column-start: 1;
-        grid-column-end: 3;
-        grid-row-start: 1;
-        grid-row-end: 3;
-    }
-
-    .navbar{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 1rem;
-        list-style: none;
-        margin: 0;
+        grid-column-end: 5;
     }
 
     #ham{
         display: none;
     }
 
-    .skotype{
+    #footer-footer{
         display: grid;
-        flex-direction: row;
+        grid-template-areas: "left center right";
+        grid-area: footer;
+    }
+
+    .kontakt-oss{
+        display: grid;
+        grid-template-areas: "left center right";
+        grid-area: footer;
+    }
+
+    #kontaktoss{
+        grid-area: left;
+    }
+
+    #vare-produkter{
+        grid-area: center;
+    }
+
+    #sosiale-medier{
+        grid-area: right;
     }
 
     footer{
-        display: grid;
-        flex-direction: row;
+        width: 150%;
     }
+
+    
+
+
 }
