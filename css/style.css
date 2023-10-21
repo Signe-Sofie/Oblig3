@@ -250,7 +250,7 @@ main section article p{
    
     #grid-container-index, #grid-container-produkt, #grid-container-kjopsrett{
         grid-template-areas: "header header header" "main main main" "footer footer footer";
-        grid-template-columns: 1fr 1fr 1r 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
      
     #grid-container-index main{
@@ -353,7 +353,6 @@ main section article p{
         flex-direction: row;
         gap: 0.5rem;
         list-style: none;
-        padding: 
     }
 
     #footer{
