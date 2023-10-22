@@ -50,6 +50,11 @@ header nav li{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#logofarge{
+    color: black;
+    text-decoration: none;
+}
+
 body{
     background-color: rgb(240, 234, 227);
 }
@@ -214,10 +219,11 @@ ul li{
     display: flex;
     flex-wrap: wrap;
     justify-content: right;
+    width: 400px;
 }
 
 #produktimg{
-    width: 15%;
+    width: 400px;
     display: flex;
  
 }
