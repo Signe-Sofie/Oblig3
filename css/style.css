@@ -267,19 +267,19 @@ main section article p{
     #grid-container-index{
         display: grid;
         grid-template-areas: "left center right";
+        grid-area: main;
     }
 
     #grid-container-produkt main{
         display: grid;
         grid-column-start: 1;
         grid-column-end: 5;
-
     }
 
     #grid-container-produkt{
         display: grid;
         grid-template-areas: "bilde bilde navn" "bilde bilde pris" "bilde bilde farger" "bilde bilde sizes" "bilde bilde kjopsknapp" ". produkt ." "beskrivelse beskrivelse beskrivelse";
-        grid-area: body;
+        grid-area: main;
     }
 
     #grid-container-produkt .produktimg{
