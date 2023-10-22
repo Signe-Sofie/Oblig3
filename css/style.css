@@ -287,6 +287,14 @@ main section article p{
         grid-area: bilde;
     }
 
+    #div-id{
+        display: flex;
+    }
+
+    #lilleputtsko-produktside{
+        display: flex;
+    }
+
     #skonavn{
         grid-area: navn;
     }
@@ -332,8 +340,8 @@ main section article p{
     }
 
     .produktimg{
-        display: grid;
-        grid-area: right;
+        display: flex;
+        g
         order: 1;
         padding: 0;
         margin: 0;
