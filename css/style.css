@@ -271,7 +271,6 @@ main section article p{
 
     #grid-container-produkt main{
         display: grid;
-       
         grid-column-start: 1;
         grid-column-end: 5;
 
