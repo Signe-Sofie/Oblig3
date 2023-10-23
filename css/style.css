@@ -70,7 +70,7 @@ img{
 }
 
 .knapp{
-    background-color: rgb(68, 198, 198);
+    background-color: rgb(90, 116, 116);
     color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -85,11 +85,11 @@ img{
 
 
 .knapp:hover{
-    background-color: blueviolet;
+    background-color: rgb(57, 64, 73);
 }
 
 .skotype{
-    background-color: aqua;
+    background-color: rgb(90, 116, 116);
     color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -100,7 +100,7 @@ img{
 }
 
 .skotype:hover{
-    background-color: blueviolet;
+    background-color: rgb(57, 64, 73);
 }
 
 #medlemsknapp{
@@ -131,7 +131,7 @@ footer section nav ul li{
 }
 
 #sosialemedier{
-    background-color: rgb(84, 114, 114);
+    background-color: rgb(85, 145, 145);
     text-align: center;
     display: block;
     padding: 0.5rem;
@@ -139,7 +139,6 @@ footer section nav ul li{
 }
 
 .ikoner{
-    background-color: rgb(101, 44, 155);
     font-size: 1.5rem;
     text-align: center;
     display: inline-block;
@@ -193,18 +192,18 @@ ul li{
 }
 
 .størrelser{
-    background-color: blue;
+    background-color: rgb(180, 180, 186);
     display: inline-block;
     padding: 0.5rem;
     margin: 0.5rem;
 }
 
 .størrelser:hover{
-    background-color: aquamarine;
+    background-color: rgb(94, 97, 96);
 }
 
 #kjopeknapp{
-    background-color: brown;
+    background-color: rgb(136, 196, 136);
     color: black;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -280,11 +279,6 @@ main section article p{
         grid-template-areas: "header header header header" "main main main main";
     }
 
-    #grid-container-produkt .produktimg{
-        display: grid;
-        grid-area: bilde;
-    }
-
     #produkt-main{
         display: grid;
         grid-template-areas: "brødsmulesti ." "bilde info";
@@ -301,30 +295,11 @@ main section article p{
 
     #produkt-bilde{
         grid-area: bilde;
+        width: 190%;
     }
 
     #produkt-info{
         grid-area: info;
-    }
-
-    #div-id{
-        display: flex;
-    }
-
-    #lilleputtsko-produktside{
-        display: flex;
-    }
-
-    #skonavn{
-        grid-area: navn;
-    }
-
-    #produktbeskrivelse{
-        grid-area: produkt;
-    }
-
-    #produkt{
-        grid-area: beskrivelse;
     }
     
     .produktimg img{
