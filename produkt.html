@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="no">
+     <!--flere deler av koden er inspirert av forelesning med Ann-Charlott Karlsen og boken "html og css" av Jon Duckett-->
     <head>
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta charset="UTF-8">
@@ -31,19 +32,16 @@
                     <li><a href="#">Inextenso softwear</a></li>
                 </ul>
             </nav>
-            <section>
-               
-            </section>
             <section id="lilleputtsko-produktside">
-                <article class="produktimg">
-                    <img src="img/sko-begge.jpg" alt="inextenso softwear sko, lilla og svarte sko med borrelås og elastisk snøring">
-                </article>
-                <article id="produktimg">
+                <div id="produktimg">
+                    <!--bilder er tatt selv-->
                     <img src="img/sko-begge.jpg" alt="begge skoene vises">
                     <img src="img/sko-foran.jpg" alt="skoen vises foran">
                     <img src="img/sko-siden.jpg" alt="skoen vises fra siden">
                     <img src="img/sko-bak.jpg" alt="skoen vises fra baksiden">
-                </article>
+                </div>
+                <!--bilder er tatt selv-->
+                <img src="img/sko-begge.jpg" alt="inextenso softwear sko, lilla og svarte sko med borrelås og elastisk snøring">
                 <div id="div-id">
                     <h3>Inextenso</h3>
                     <p id="skonavn">SOFTWEARSKO</p>
@@ -60,12 +58,14 @@
                         <p class="størrelser">31</p>
                         <p class="størrelser">32</p>
                         <p class="størrelser">33</p>
+                        <br>
                         <p class="størrelser">34</p>
                         <p class="størrelser">35</p>
                         <p class="størrelser">36</p>
                         <p class="størrelser">37</p>
-                    <a href="#" id="kjopeknapp">Legg til i handlekurv</a>
+                    </div>
                 </div>
+                <a href="#" id="kjopeknapp">Legg til i handlekurv</a>
                 <h6 id="produktbeskrivelse">Produktbeskrivelse</h6>
                 <p id="produkt">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed neque 

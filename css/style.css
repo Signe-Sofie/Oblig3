@@ -151,7 +151,6 @@ footer section nav ul li{
 /*produktside*/
 
 .brodsti{
-   
     display: none; 
     
 }
@@ -257,6 +256,7 @@ main section article p{
     #grid-container-index, #grid-container-produkt, #grid-container-kjopsrett{
         grid-template-areas: "header header header" "main main main" "footer footer footer";
         grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: grid;
     }
      
     #grid-container-index main{
@@ -271,7 +271,6 @@ main section article p{
     }
 
     #grid-container-produkt main{
-        display: grid;
         grid-column-start: 1;
         grid-column-end: 5;
     }
@@ -341,7 +340,6 @@ main section article p{
 
     .produktimg{
         display: flex;
-        g
         order: 1;
         padding: 0;
         margin: 0;
