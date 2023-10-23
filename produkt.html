@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="no">
-     <!--flere deler av koden er inspirert av forelesning med Ann-Charlott Karlsen og boken "html og css" av Jon Duckett-->
-      <!--sjekking av nettside, cowboykode og justeringer av nettsiden er gjort i firefox-->
+        <!--flere deler av koden er inspirert av forelesning med Ann-Charlott Karlsen og boken "html og css" av Jon Duckett-->
+         <!--sjekking av nettside, cowboykode og justeringer av nettsiden underveis er gjort i firefox-->
     <head>
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <meta charset="UTF-8">
@@ -24,7 +24,7 @@
                     <i class="fa-solid fa-cart-shopping"></i>
                 </nav>
             </header>
-            <main>
+            <main id="produkt-main">
             <nav>
                 <ul class="brodsti">
                     <li><a href="index.html">Hjem/</a></li>
@@ -33,17 +33,20 @@
                     <li><a href="#">Inextenso softwear</a></li>
                 </ul>
             </nav>
-            <section id="lilleputtsko-produktside">
-                <div id="produktimg">
+            <section id="produkt-bilde">
+                <article class="produktimg">
+                             <!--bilder er tatt selv-->
+                    <img src="img/sko-begge.jpg" alt="inextenso softwear sko, lilla og svarte sko med borrelås og elastisk snøring">
+                </article>
+                <article id="produktimg">
                     <!--bilder er tatt selv-->
                     <img src="img/sko-begge.jpg" alt="begge skoene vises">
                     <img src="img/sko-foran.jpg" alt="skoen vises foran">
                     <img src="img/sko-siden.jpg" alt="skoen vises fra siden">
                     <img src="img/sko-bak.jpg" alt="skoen vises fra baksiden">
-                </div>
-                <!--bilder er tatt selv-->
-                <img src="img/sko-begge.jpg" alt="inextenso softwear sko, lilla og svarte sko med borrelås og elastisk snøring">
-                <div id="div-id">
+                </article>
+            </section>
+            <section id="produkt-info">
                     <h3>Inextenso</h3>
                     <p id="skonavn">SOFTWEARSKO</p>
                     <p id="pris">299 kr</p>
@@ -58,15 +61,14 @@
                         <p class="størrelser">30</p>
                         <p class="størrelser">31</p>
                         <p class="størrelser">32</p>
-                        <p class="størrelser">33</p>
                         <br>
+                        <p class="størrelser">33</p>
                         <p class="størrelser">34</p>
                         <p class="størrelser">35</p>
                         <p class="størrelser">36</p>
                         <p class="størrelser">37</p>
                     </div>
-                </div>
-                <a href="#" id="kjopeknapp">Legg til i handlekurv</a>
+                    <a href="#" id="kjopeknapp">Legg til i handlekurv</a>
                 <h6 id="produktbeskrivelse">Produktbeskrivelse</h6>
                 <p id="produkt">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed neque 
