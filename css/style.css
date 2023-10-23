@@ -277,13 +277,34 @@ main section article p{
 
     #grid-container-produkt{
         display: grid;
-        grid-template-areas: "bilde bilde navn" "bilde bilde pris" "bilde bilde farger" "bilde bilde sizes" "bilde bilde kjopsknapp" ". produkt ." "beskrivelse beskrivelse beskrivelse";
-        grid-area: main;
+        grid-template-areas: "header header header header" "main main main main";
     }
 
     #grid-container-produkt .produktimg{
         display: grid;
         grid-area: bilde;
+    }
+
+    #produkt-main{
+        display: grid;
+        grid-template-areas: "brødsmulesti ." "bilde info";
+        grid-area: main;
+    }
+
+    #grid-container-produkt header{
+        grid-area: header;
+    }
+
+    #produkt-main nav{
+        grid-area: brødsmulesti;
+    }
+
+    #produkt-bilde{
+        grid-area: bilde;
+    }
+
+    #produkt-info{
+        grid-area: info;
     }
 
     #div-id{
